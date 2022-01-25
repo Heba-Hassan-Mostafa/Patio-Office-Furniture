@@ -1,0 +1,39 @@
+
+
+@include('frontend.design.header')
+<body>
+  <header>
+    <!-- start first-nav-->
+
+  </header>
+
+     <div
+     style="
+     text-align: center;
+     font-weight:bold;
+     color:red;
+     margin-top:50px;
+     font-family: 'Cairo', sans-serif">
+       {!! setting()->message_maintenance !!}
+       </div>
+
+
+
+<div class="rep" style="position: relative;hight:50px">
+    <img
+    style="position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width:100%;
+    top:100px;"
+    src="{{ asset('frontend/images/main.jpg') }}"
+    alt="maintenance">
+
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+/** @format */
+
+.scrollup {
+  position: fixed;
+  color: #ffffff;
+  right: 25px;
+  bottom: 25px;
+  /* border: 2px solid #ff8f17; */
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 1;
+  background: #17a2b8;
+  /* box-shadow: 1px 1px 5px; */
+  cursor: pointer;
+  z-index: 999;
+  display: none;
+}
+
+.scrollup i {
+  display: block;
+  text-align: center;
+}
